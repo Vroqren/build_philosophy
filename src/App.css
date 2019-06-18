@@ -1,33 +1,104 @@
-.App {
-  text-align: center;
+body {
+  background: rgb(202, 202, 202);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.pageHeader {
+  background-color: #ffffff;
+  height: 97px;
+  color: rgb(0, 117, 153);
+  padding-top: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 45px;
+  width: 100%;
+  position: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.decorlessLink {
+  text-decoration: none;
+  color: inherit;
+}
+.decorlessLink:hover {
+  text-decoration: underline;
+}
+
+.rightAlign {
+  float: right;
+  text-align: right;
+}
+
+#beginButton {
+  margin-top: 425px;
+  width: 22%;
+  margin-right: 15px;
+}
+#authorButton {
+  margin-top: 425px;
+  margin-left: 15px;
+  width: 22%;
+  background-image: url("https://assets3.thrillist.com/v1/image/2794471/size/sk-2017_04_standard_listing_desktop.jpg");
+  background-position: center top;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.dialogue {
+  display: table;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  margin-top: 172px;
+  padding: 25px;
+  background: rgba(0, 117, 153, .65);
+  color: white;
+  position: fixed;
+  left: 10%;
+}
+#opening1 {
+  display: table-row;
+}
+#opening2, #opening2, #opening3, #opening4, #opening5, #opening6, #opening7, #opening8 {
+  display: none
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.largeInput {
+  width: 70%;
+  height: 175px;
+}
+
+.leftOfCenter {
+  width: 12%;
+  text-align: center;
+  margin-right: 15px;
+}
+.rightOfCenter {
+  width: 12%;
+  text-align: center;
+  margin-left: 15px;
+}
+.center {
+  width: 12%;
+}
+
+#eduBackground {
+  height: 1200px;
+  background-image: url("https://www.nationalgeographic.com/content/dam/science/photos/000/477/47789.ngsversion.1492453804863.adapt.1900.1.jpg");
+}
+#epiBackground {
+  height: 1200px;
+  background-image: url("https://ayoqq.org/images/plato-drawing-theaetetus-3.png");
+}
+#ethBackground {
+  height: 1200px;
+  background-image: url("https://cdn.allwallpaper.in/wallpapers/2000x1333/6027/nature-sand-trees-rocks-calm-sea-beach-2000x1333-wallpaper.jpg");
+}
+#relBackground {
+  height: 1200px;
+  background-image: url("https://c.stocksy.com/a/Ten500/z9/1382505.jpg?1559284315");
+  background-size: 100%;
+  background-position: center top;
+}
+#resBackground {
+  height: 1200px;
+  background-image: url("https://www.gannett-cdn.com/presto/2018/08/06/USAT/d7e9198a-b2fa-4ca6-b947-31c3751cc248-GettyImages-898660948.jpg?crop=5369,3020,x0,y0&width=3200&height=1680&fit=bounds");
+  background-position-x: 75%;
 }
