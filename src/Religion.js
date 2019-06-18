@@ -19,7 +19,7 @@ class Religion extends React.Component {
   }
 
   R2N() {
-    this.setState({R2: "Just because a God wants to remove evil, and has the power to do evil, does not mean that he will do so.  There may be higher reasoning that you do not understand."},
+    this.setState({R2: "Just because a God wants to remove evil, and has the power to do so, does not mean that he will do so.  There may be higher reasoning that you do not understand."},
       () => {
     document.getElementById('opening2').style.display = "none";
     document.getElementById('opening3').style.display = "table-row";})
