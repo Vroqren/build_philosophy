@@ -12,6 +12,7 @@ body {
   padding-bottom: 45px;
   width: 100%;
   position: fixed;
+  z-index: 2
 }
 
 .decorlessLink {
@@ -60,6 +61,20 @@ body {
   display: none
 }
 
+.dialogue2 {
+  display: table;
+  text-align: center;
+  width: 80%;
+  height: 250px;
+  margin-top: 172px;
+  padding: 25px;
+  background: rgba(0, 117, 153, .65);
+  color: white;
+  position: absolute;
+  left: 10%;
+  z-index: 1
+}
+
 .largeInput {
   width: 70%;
   height: 175px;
@@ -101,4 +116,5 @@ body {
   height: 1200px;
   background-image: url("https://www.gannett-cdn.com/presto/2018/08/06/USAT/d7e9198a-b2fa-4ca6-b947-31c3751cc248-GettyImages-898660948.jpg?crop=5369,3020,x0,y0&width=3200&height=1680&fit=bounds");
   background-position-x: 75%;
+  position: relative;
 }

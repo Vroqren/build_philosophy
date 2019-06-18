@@ -162,7 +162,7 @@ class Ethics extends React.Component {
           <div id="opening8">Three down, one to go.  Coming up next is the philosophy of Religion!
             <br /><br />
             <Link to={{pathname: '/Religion'}}>
-              <Button className="rightOfCenter" color="success" >Philosophy of Knowledge</Button>
+              <Button className="rightOfCenter" color="success" >Philosophy of Religion</Button>
             </Link>
           </div>
 

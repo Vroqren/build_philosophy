@@ -101,7 +101,7 @@ class Epistemology extends React.Component {
             <Button className="rightOfCenter" color="success" onClick={this.K1Y.bind(this)}>Yes</Button>
           </div>
 
-          <div id="opening2">Plato wrote a dialogue between Theaetetus and Socrates who discuss the definition of knowledge.  Although Plato leaves the question intentionally un-answered to prompt our though, the argument is that knowledge is a true belief of something, followed by an account or witness to support the belief.  How would you define knowledge?
+          <div id="opening2">Plato wrote a dialogue between Theaetetus and Socrates who discuss the definition of knowledge.  Although Plato leaves the question intentionally un-answered to prompt our thought, the argument is that knowledge is a true belief of something, followed by an account or witness to support the belief.  How would you define knowledge?
             <br /><br />
             <input className="leftOfCenter" id="K2I" />
             <Button className="rightOfCenter" color="success" onClick={this.K2Y.bind(this)}>Submit</Button>
